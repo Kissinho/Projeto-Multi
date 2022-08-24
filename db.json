@@ -1,0 +1,17 @@
+{
+  "lista": [
+    {
+      "id": 1,
+      "tarefa": "fazer compras",
+      "concluida": false
+    },
+    {
+      "tarefa": "fazer comida",
+      "id": 2
+    },
+    {
+      "tarefa": "ir ao mercado",
+      "id": 3
+    }
+  ]
+}

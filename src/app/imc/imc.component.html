@@ -1,0 +1,21 @@
+<body>
+    
+
+<div class="container">
+    <div class="row imc">
+        <div class="col-2 texto ">
+            {{imc}}
+        </div>
+        <div class=" col-10 d-flex ">
+            <input type="text" name="peso" id="peso" placeholder="Peso em KG" #peso>
+            <hr>
+                <input type="text" name="altura" id="altura" placeholder="Altura em CM" #altura >
+
+                <button (click)="calcularImc(peso.value, altura.value)">Calcular</button>
+        </div>
+    </div>
+    <div class="row">
+        <p class="txt"[ngClass]="{orange: valorImc<=18.5, green:valorImc>=18.6 && valorImc<=24.9, yellow: valorImc>=25 && valorImc<=29.9, red: valorImc>=30}">{{msg}}</p>
+    </div>
+</div>
+</body>

@@ -1,0 +1,37 @@
+<div class="container">
+    <div class="row">
+    <div class="col-12">
+        <h1>   Lista de a fazeres</h1>
+        <div class="listaebotao">
+            <form  #formLista="ngForm" (ngSubmit)="salvaLista(formLista.value)">
+            <input type="text" name="tarefa" id="tarefa" #tarefa placeholder="Escreva aqui o seu a fazer" [(ngModel)]="formulario.tarefa">
+           >>>
+            <button type="submit">Adicionar</button>
+        </form>
+
+        </div>
+    </div>
+</div>
+
+    <div class="row" >
+        
+      <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Tarefa</th>
+            
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let x of lista">
+                <td>{{x.id}}</td>
+                <td [ngStyle]="{textDecoration: x.concluida==true ? 'line-through' : 'none'}">{{x.tarefa}}</td>
+                
+                <td><button (click)="apagaLista(x.id)" class="apagar">Apagar</button></td>
+            </tr>
+        </tbody>
+      </table>
+
+    </div>
+</div>
