@@ -5,24 +5,24 @@ Bem vindo ao Projeto Multi! Este é o meu primeiro projeto pessoal e independent
 ## Funcionalidades
 
 O Projeto Multi é uma aplicação em Angular multifuncional, que te permite:
-*Usar uma calculadora simples
-*Ver a cotação do dólar e euro em tempo real, e calcular a quantidade necessária em reais
-*Calcular seu IMC e obter imediatamente um feedback
-*Lista de a fazeres, conectada a um "banco de dados" simulado com JSON SERVER
+* Usar uma calculadora simples
+* Ver a cotação do dólar e euro em tempo real, e calcular a quantidade necessária em reais
+* Calcular seu IMC e obter imediatamente um feedback
+* Lista de a fazeres, conectada a um "banco de dados" simulado com JSON SERVER
 
 ## O que é necessário para rodar na minha máquina?
 
-Você precisa ter o Node instalado
+* Você precisa ter o Node instalado
 https://nodejs.org/en/download/
-Entre no site acima e faça o download
+* Entre no site acima e faça o download
 
-Após instalar o Node, é necessário que você instale o Angular, para isso abra o seu terminal e digite o seguinte comando
-npm install @angular/cli
+* Após instalar o Node, é necessário que você instale o Angular, para isso abra o seu terminal e digite o seguinte comando
+* npm install @angular/cli
 
-Por fim, para poder rodar o banco de dados simulado, você precisa instalar o JSON SERVER, para isso, digite o seguinte comando no seu terminal
-npm install -g json-server
+* Por fim, para poder rodar o banco de dados simulado, você precisa instalar o JSON SERVER, para isso, digite o seguinte comando no seu terminal
+* npm install -g json-server
 
-Pronto! Você já tem as dependências necessárias para rodar o projeto.
+* Pronto! Você já tem as dependências necessárias para rodar o projeto.
 
 ## Rodando o projeto
 
