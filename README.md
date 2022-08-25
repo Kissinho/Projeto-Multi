@@ -54,7 +54,11 @@ Neste projeto, foram utilizadas as seguintes tecnologias
 * Interpolação
 * ngClass
 * HttpClient
-* ngFor.
+* ngFor
+* ngForm
+* Variáveis de template
+* Event Binding
+* Pipes
 
 ## Gostou? Teve alguma dúvida? Que tal me seguir ou me contatar no meu LinkedIn?
 
