@@ -7,6 +7,8 @@ Bem vindo ao Projeto Multi! Este é o meu primeiro projeto pessoal e independent
 O Projeto Multi é uma aplicação em Angular multifuncional, que te permite:
 * Usar uma calculadora simples
 * Ver a cotação do dólar e euro em tempo real, e calcular a quantidade necessária em reais
+* Observação: Para consultar o dólar e euro em tempo real, foi consumida uma API
+* https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,BTC-BRL
 * Calcular seu IMC e obter imediatamente um feedback
 * Lista de a fazeres, conectada a um "banco de dados" simulado com JSON SERVER
 
