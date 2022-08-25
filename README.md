@@ -35,14 +35,27 @@ Use seu terminal para chegar na pasta raíz do projeto, e execute o seguinte com
 
 * Este comando fará o seu computador rodar e automaticamente abrirá o projeto em uma guia no seu navegador padrão.
 
-## Running unit tests
+## Tecnologias utilizadas no projeto
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Neste projeto, foram utilizadas as seguintes tecnologias
 
-## Running end-to-end tests
+* Angular
+* JavaScript
+* TypeScript
+* SASS
+* Bootstrap
+* Google Fonts
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Conceitos de Angular utilizados
 
-## Further help
+* Rotas
+* Componentes
+* Services
+* Interpolação
+* ngClass
+* HttpClient
+* ngFor.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Gostou? Que tal me seguir no meu LinkedIn?
+
+https://www.linkedin.com/in/rickson-queiroz/
