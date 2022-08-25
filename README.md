@@ -56,6 +56,6 @@ Neste projeto, foram utilizadas as seguintes tecnologias
 * HttpClient
 * ngFor.
 
-## Gostou? Que tal me seguir no meu LinkedIn?
+## Gostou? Teve alguma dúvida? Que tal me seguir ou me contatar no meu LinkedIn?
 
 https://www.linkedin.com/in/rickson-queiroz/
