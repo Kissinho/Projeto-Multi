@@ -28,12 +28,12 @@ https://nodejs.org/en/download/
 
 Use seu terminal para chegar na pasta raíz do projeto, e execute o seguinte comando:
 * json-server --watch db.json
-este comando acima fará o seu computador rodar localmente o banco de dados simulado, necessário para a "lista de a fazeres" funcionar corretamente
+* este comando acima fará o seu computador rodar localmente o banco de dados simulado, necessário para a "lista de a fazeres" funcionar corretamente
 
 * Agora você precisa fazer a aplicação em Angular rodar, abra outro terminal, vá até a pasta raíz do projeto e digite o seguinte comando:
 * ng serve -o
 
-Este comando fará o seu computador rodar e automaticamente abrirá o projeto em uma guia no seu navegador padrão.
+* Este comando fará o seu computador rodar e automaticamente abrirá o projeto em uma guia no seu navegador padrão.
 
 ## Running unit tests
 
